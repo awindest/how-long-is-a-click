@@ -1,0 +1,40 @@
+{
+	"name": "how-long-is-a-click",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"db:push": "drizzle-kit push:sqlite",
+		"db:push:prod": "PROD=1 drizzle-kit push:sqlite",
+		"db:generate": "drizzle-kit generate:sqlite"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.2.2",
+		"@sveltejs/adapter-vercel": "^5.4.0",
+		"@sveltejs/kit": "^2.5.18",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"dotenv": "^16.4.5",
+		"drizzle-kit": "^0.20.18",
+		"svelte": "^4.2.18",
+		"svelte-check": "^3.8.4",
+		"tslib": "^2.6.3",
+		"typescript": "^5.5.3",
+		"vite": "^5.3.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"@libsql/client": "^0.6.2",
+		"@neodrag/svelte": "^2.0.6",
+		"@resvg/resvg-js": "^2.6.2",
+		"@wessberg/pointer-events": "^1.0.9",
+		"drizzle-orm": "^0.30.10",
+		"open-props": "^1.7.5",
+		"satori": "^0.10.14",
+		"satori-html": "^0.3.2",
+		"svelte-french-toast": "^1.2.0",
+		"sveltekit-rate-limiter": "^0.5.1",
+		"ulid": "^2.3.0"
+	}
+}
