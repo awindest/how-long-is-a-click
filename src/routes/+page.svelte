@@ -54,7 +54,7 @@
 		};
 	}}
 	method="post"
->
+><p style="padding-top:100px;"></p>
 	<h1 use:draggable>How long is a click?</h1>
 
 	<br /><br />
@@ -83,7 +83,7 @@
 	Code written by <a href="https://x.com/puruvjdev">@puruvjdev</a> •
 	<a target="_blank" rel="noreferrer" href="https://github.com/puruvj/how-long-is-a-click">source</a
 	> or 
-	<a target="_blank" rel="noreferrer" href="https://github.com/awindest/how-long-is-a-click">Indest Labs source</a
+	<a target="_blank" rel="noreferrer" href="https://github.com/awindest/how-long-is-a-click/blob/main/README.md">Indest Labs source</a
 	>
 </footer>
 
@@ -96,7 +96,7 @@
 		border-radius: var(--radius-blob-1);
 
 		background-image: var(--gradient-2);
-		color: var(--gray-9);
+		color: var(--gray-2);
 		font-size: 1.2rem;
 		text-shadow: none;
 

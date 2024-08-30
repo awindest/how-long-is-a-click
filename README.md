@@ -1,16 +1,14 @@
 # How long is a click?
 
-First, I did not write this code. It was kindly provided by [Puru Vijay](https://github.com/puruvj/how-long-is-a-click). I downloaded  Puru's project and dissected this work to understand [drizzle](https://orm.drizzle.team/) and [turso](https://turso.tech/) plus it is a cool project. As Puru is on the Svelte development team I thought that I would also learn how to better concoct a svelte app.
+First, I did not write this code. It was kindly provided by [Puru Vijay](https://github.com/puruvj/how-long-is-a-click). I downloaded Puru's project and dissected this work to understand [drizzle](https://orm.drizzle.team/) and [turso](https://turso.tech/) plus it is a cool project. As Puru is on the Svelte development team I thought that I would also learn how to better concoct a svelte app.
 
-This was all an experimental learning experience and I sorta geek out on milliseconds as my work for the US Navy way back when involved real-time responses of our software so I love measuring time. I also jumped into the Typescript pool finally but may get out soon 8) (a typical attitude befitting a noob) 
+This was all an experimental learning experience and I sorta geek out on milliseconds as my work for the US Navy way back when involved real-time responses of our software so I love measuring time. I also jumped into the Typescript pool finally but may get out soon 8) (a typical attitude befitting a noob).
 
 
 Click [here](https://how-long-is-a-click-green.vercel.app/) for the demonstration.
 
 
 # Learning about drizzle and turso
-
-
 
 ## Drizzle
 
@@ -30,6 +28,8 @@ Basically, [turso](https://turso.tech/) is a free, easy to use, ready for produc
 
 Before you 
 ```bash
+git clone https://github.com/awindest/how-long-is-a-click
+cd how-long-is-a-click
 pnpm i
 pnpm run dev
 ```
